@@ -1,1 +1,17 @@
 /* add home page styles here */
+/*#location {
+    background-image: url('../assets/Forest.png');
+    width: 100%;
+    height: auto;
+}
+
+#architecture {
+    background-image: url('../assets/Hut.png');
+    
+}*/
+
+.bg {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
