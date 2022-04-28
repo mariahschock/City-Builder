@@ -1,24 +1,23 @@
 /* add home page styles here */
 #location {
     background-image: url('../assets/Forest.png');
-    width: 100%;
-    height: 400px;
+    width: 575px; 
+    height: 200px;
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:contain; 
     background-position: center;
+
 }
 
 .pictures {
     display:flex;
     flex-direction: row;
-    width: 100%;
-    height: 100%;
 }
 
 #architecture {
     background-image: url('../assets/Hut.png');
-    width: 100%;
-    height: 400px;
+    width: 575px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
