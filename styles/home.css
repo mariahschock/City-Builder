@@ -6,12 +6,11 @@
     background-repeat: no-repeat;
     background-size:contain; 
     background-position: center;
-    border: 5px solid #555;
 }
 
 .pictures {
     display:flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
 
 #architecture {
@@ -44,17 +43,19 @@ h3 {
 
 #architecture-section {
     background-color: RGB(82, 50, 19);
+
 }
 
 #known-section {
     background-color: RGB(82, 50, 19);
+
 }
 #location-select {
     background-color:RGB(211, 204, 165) 
 }
 
 #slogans {
-    color: RGB(176, 196, 0); 
+    color: RGB(213, 222, 46); 
     font-family: cursive;
 }
 /*.bg {
