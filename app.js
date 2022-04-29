@@ -8,13 +8,13 @@ const knownDiv = document.getElementById('known');
 const sloganButton = document.getElementById('slogan-button');
 const sloganInput = document.getElementById('slogan-input');
 const reportEl = document.getElementById('report');
-const sloganEl = document.getElementById('slogan');
+const slogansEl = document.getElementById('slogans');
 // let state
 let locationCount = 0;
 let architectureCount = 0;
 let knownCount = 0;
 
-let slogans = [];
+let slogan = [];
 
 // set event listeners 
 locationSelect.addEventListener('change', () => {
@@ -36,7 +36,7 @@ knownSelect.addEventListener('change', () => {
 });
 
 sloganButton.addEventListener('click', () => {
-    slogans.push(sloganInput.value);
+    slogan.push(sloganInput.value);
     sloganInput.value = ' ';
     displaySlogans();
 });
@@ -46,10 +46,10 @@ function displayStats() {
 }
 
 function displaySlogans() {
-    sloganEl.textContent = '';
+    slogansEl.textContent = '';
     const slogans = document.getElementById('slogans');
 
-    for (let tagline of slogans) {
+    for (let tagline of slogan) {
         const li = document.createElement('li');
         li.textContent = tagline;
         slogans.append(li);
