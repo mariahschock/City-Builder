@@ -32,6 +32,10 @@
     background-position: center;
 }
 
+h3 {
+    font-family: fantasy;
+    font-weight: bold;
+}
 /*.bg {
     background-size: contain;
     background-repeat: no-repeat;

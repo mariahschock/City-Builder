@@ -65,6 +65,7 @@ header {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    font-family: fantasy;
 }
 
 .gutter-right {
@@ -77,6 +78,7 @@ header img {
 
 p {
     margin: var(--gutter);
+    font-family: fantasy;
 }
   
 footer {
