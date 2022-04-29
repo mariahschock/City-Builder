@@ -28,7 +28,8 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: RGB(82, 50, 19);
+    /* background-color: RGB(82, 50, 19); */
+    /* background-color: RGB(211, 204, 165); */
 }
 
 main {
@@ -37,28 +38,28 @@ main {
     justify-content: center;
     align-items:center;
     margin-bottom: calc(var(--footer-height));
-    background-color: RGB(82, 50, 19);
+    /* background-color: RGB(82, 50, 19); */
     
 }
 
 section {
-    background-color: RGB(82, 50, 19);;
-    max-width: 80%;
+    /* background-color: RGB(82, 50, 19);; */
+    /* max-width: 80%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
+    /* padding-top: var(--gutter);
     padding-bottom: var(--gutter);
     margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
+    margin-bottom: var(--gutter);   */
     
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    background-color:RGB(82, 50, 19);
+    /* background-color:RGB(82, 50, 19); */
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -69,7 +70,6 @@ h1 {
     font-weight: bold;
     font-family: fantasy;
     color: RGB(176, 196, 0);
-    display: center;
 }
 
 .gutter-right {
@@ -83,7 +83,7 @@ header img {
 p {
     margin: var(--gutter);
     font-family: fantasy;
-    color: RGB(211, 204, 165);
+    color: RGB(195, 188, 149);
 }
 footer {
     position: fixed;
@@ -92,6 +92,6 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    background-color: RGB(82, 50, 19);
+    /* background-color: RGB(82, 50, 19); */
     box-shadow: var(--shadow);
 }
