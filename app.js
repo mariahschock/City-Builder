@@ -1,8 +1,10 @@
 // import functions and grab DOM elements
 const locationSelect = document.getElementById('location-select');
 const architectureSelect = document.getElementById('architecture-select');
+const knownSelect = document.getElementById('known-select');
 const locationDiv = document.getElementById('location');
 const architectureDiv = document.getElementById('architecture');
+const knownDiv = document.getElementById('known');
 const sloganButton = document.getElementById('slogan-button');
 const sloganInput = document.getElementById('slogan-input');
 const reportEl = document.getElementById('report');
@@ -10,6 +12,7 @@ const sloganEl = document.getElementById('slogan');
 // let state
 let locationCount = 0;
 let architectureCount = 0;
+let knownCount = 0;
 
 let slogans = [];
 
@@ -26,6 +29,12 @@ architectureSelect.addEventListener('change', () => {
     displayStats();
 });
 
+knownSelect.addEventListener('change', () => {
+    knownCount++;
+    knownDiv.style.backgroundImage = `url('./assets/${knownSelect.value}.png')`;
+    displayStats();
+});
+
 sloganButton.addEventListener('click', () => {
     slogans.push(sloganInput.value);
     sloganInput.value = ' ';
@@ -33,7 +42,7 @@ sloganButton.addEventListener('click', () => {
 });
 
 function displayStats() {
-    reportEl.textContent = `You have changed the location ${locationCount} times and the architecture ${architectureCount} times.`;
+    reportEl.textContent = `You have changed the location ${locationCount} times, the architecture ${architectureCount} times, and the known for ${knownCount} times.`;
 }
 
 function displaySlogans() {

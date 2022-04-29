@@ -23,6 +23,15 @@
     background-position: center;
 }
 
+#known {
+    background-image: url('../assets/Boulder.png');
+    width: 575px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
 /*.bg {
     background-size: contain;
     background-repeat: no-repeat;
