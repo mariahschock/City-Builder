@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size:contain; 
     background-position: center;
-    padding: 15px;
+    padding: 10px;
 }
 
 .pictures {
@@ -21,6 +21,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    padding: 10px;
 }
 
 #known {
@@ -30,6 +31,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    padding: 10px;
 }
 
 h3 {
@@ -38,26 +40,31 @@ h3 {
     color: RGB(176, 196, 0); 
 }
 
-/* #location-section {
-    background-color: RGB(82, 50, 19);
-}
-
-#architecture-section {
-    background-color: RGB(82, 50, 19);
-
-}
-
-#known-section {
-    background-color: RGB(82, 50, 19);
-
-} */
-
 #slogans {
     color: RGB(121, 90, 45); 
     font-family: cursive;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
 }
-/*.bg {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+
+#stats {
+    padding-bottom: 20px;
+    justify-items: center;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+} 
+#location-select {
+    margin: 10px;
+    text-align: center;
+}
+#architecture-select {
+    margin: 10px;
+    text-align: center;
+}
+#known-select {
+    margin: 10px;
+    text-align: center;
 }

@@ -28,8 +28,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    /* background-color: RGB(82, 50, 19); */
-    /* background-color: RGB(211, 204, 165); */
+
 }
 
 main {
@@ -38,28 +37,21 @@ main {
     justify-content: center;
     align-items:center;
     margin-bottom: calc(var(--footer-height));
-    /* background-color: RGB(82, 50, 19); */
+
     
 }
 
 section {
-    /* background-color: RGB(82, 50, 19);; */
-    /* max-width: 80%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);   */
     
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    /* background-color:RGB(82, 50, 19); */
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -92,6 +84,5 @@ footer {
     height: var(--footer-height);
     display: flex;
     justify-content: flex-end;
-    /* background-color: RGB(82, 50, 19); */
     box-shadow: var(--shadow);
 }
