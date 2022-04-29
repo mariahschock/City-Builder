@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size:contain; 
     background-position: center;
-
+    border: 5px solid #555;
 }
 
 .pictures {
@@ -35,6 +35,27 @@
 h3 {
     font-family: fantasy;
     font-weight: bold;
+    color: RGB(176, 196, 0); 
+}
+
+#location-section {
+    background-color: RGB(82, 50, 19);
+}
+
+#architecture-section {
+    background-color: RGB(82, 50, 19);
+}
+
+#known-section {
+    background-color: RGB(82, 50, 19);
+}
+#location-select {
+    background-color:RGB(211, 204, 165) 
+}
+
+#slogans {
+    color: RGB(176, 196, 0); 
+    font-family: cursive;
 }
 /*.bg {
     background-size: contain;
