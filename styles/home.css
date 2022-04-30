@@ -1,1 +1,70 @@
 /* add home page styles here */
+#location {
+    background-image: url('../assets/Forest.png');
+    width: 550px; 
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    padding: 10px;
+}
+
+.pictures {
+    display:flex;
+    flex-direction: row; 
+}
+
+#architecture {
+    background-image: url('../assets/Hut.png');
+    width: 550px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 10px;
+}
+
+#known {
+    background-image: url('../assets/Boulder.png');
+    width: 550px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 10px;
+}
+
+h3 {
+    font-family: fantasy;
+    font-weight: bold;
+    color: RGB(176, 196, 0); 
+}
+
+#slogans {
+    color: RGB(121, 90, 45); 
+    font-family: cursive;
+    text-align: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+#stats {
+    padding-bottom: 20px;
+    justify-items: center;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+} 
+#location-select {
+    margin: 10px;
+    text-align: center;
+}
+#architecture-select {
+    margin: 10px;
+    text-align: center;
+}
+#known-select {
+    margin: 10px;
+    text-align: center;
+}
